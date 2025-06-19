@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.PriorityQueue;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class pair implements Comparable<pair>
 {
@@ -32,6 +33,7 @@ public class pair implements Comparable<pair>
 
 class Solution {
     public void topKFrequent(int[] nums, int k) {
-
+        AtomicInteger  cnt = new AtomicInteger();
+        cnt.incrementAndGet();
     }
 }
